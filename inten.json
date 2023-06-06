@@ -1,0 +1,130 @@
+{
+  "intents":[
+      {
+          "tag":"greetings",
+          "patterns":["Hi","hello","hey","what's up","greetings"],
+          "responses":["Hello!","Hey!","Greetings! How can i help you?","Hello! Welcome to MyIIEST. How can I assist you today?", "Hi there! How can I help you?", "Hey! How can I assist you today?"]
+      },
+      {
+          "tag":"developers",
+          "patterns":["Who developed you?" , "How were you made?" , "by whom were you made?", "who made you?"],
+          "responses":["I was created by a Btech student in the Department of Mechanical Engineering named Utsab Kundu..\n....just kidding :P....\n....i was made by a team of  who worked on the project of MyIIEST"]
+      },
+      {
+          "tag":"depts.",
+          "patterns":["What are the different departments available in UG in IIEST?" ],
+          "responses":["There are "]
+      },
+      {
+          "tag":"help",
+          "patterns":["I have some doubts","can you help me?" ],
+          "responses":["Yeah sure ! I am here to assist you :) \n Please specify your doubt"]
+      },
+      {
+          "tag": "about_iiest",
+          "patterns": ["What is IIEST?", "Tell me about IIEST", "Can you explain what IIEST is?"],
+          "responses": ["IIEST Shibpur, located in Shibpur, Howrah, West Bengal, is a public research university and an NIT. Established in 1856, it is recognized as an Institute of National Importance by the Government of India and is controlled by the Council of NITSER. It became the first college to be renamed Indian Institute of Engineering Science and Technology (IIEST) in 2014. With a rich history, it has 16 departments, 8 schools, over 250 faculty members, and more than 4000 students."]
+      },
+      {
+          "tag":"aboutIIC",
+          "patterns":["What is IIC?" , "Tell me something about IIC" , "Can you explain what IIC is?"],
+          "responses":["In 2018, the Ministry of Education (MoE), formerly known as MHRD, launched the Institute's Innovation Council (IIC) program in collaboration with AICTE for Higher Education Institutions (HEIs). The program aimed to foster a culture of innovation and entrepreneurship in educational institutions by engaging faculty, staff, and students in various innovation-related activities. The IICs' responsibilities included promoting ideation, problem-solving, proof of concept development, design thinking, intellectual property rights (IPR), and project management. The goal was to establish and strengthen an innovation ecosystem in HEIs through the creation of a network of IICs across selected institutions."]
+      },
+      {
+          "tag": "ug_courses",
+          "patterns": ["What are the Academic Courses IIEST offers for UG?", "Tell me about the undergraduate courses at IIEST", "Which UG courses are available at IIEST?"],
+          "responses": ["IIEST offers the following undergraduate courses: B.Tech. (4 years), B.Arch. (5 years), and Dual Degree (B.Tech.-M.Tech) for 5 years."]
+      },
+      {
+          "tag": "pg_courses",
+          "patterns": ["What are the Academic Courses IIEST offers for PG?", "Tell me about the postgraduate courses at IIEST", "Which PG courses are available at IIEST?"],
+          "responses": ["IIEST offers the following postgraduate courses: M.Tech. (2 years), M.Sc. (2 years), MBA (2 years), M.O.P (2 years), and Ph.D."]
+      },
+      {
+          "tag": "nit_status",
+          "patterns": ["Is IIEST a NIT?", "Is IIEST recognized as an NIT?", "Does IIEST have NIT status?"],
+          "responses": ["Yes, IIEST is an NIT and it is governed by the Council of NITSER."]
+      },
+      {
+          "tag": "college_type",
+          "patterns": ["IIEST is private or Govt College?", "Is IIEST a government or private college?", "What is the institutional type of IIEST?"],
+          "responses": ["IIEST is under the Central Government."]
+      },
+      {
+          "tag": "scholarships",
+          "patterns": ["Does IIEST provide Scholarships?", "Are there any scholarships available at IIEST?", "Tell me about the scholarships offered by IIEST"],
+          "responses": ["Yes, IIEST provides the GAABESU Scholarship Programme."]
+      },
+      {
+          "tag": "external_scholarships",
+          "patterns": ["Does IIEST allow other external Scholarships?", "Can I apply for external scholarships at IIEST?", "Tell me about the external scholarships accepted by IIEST"],
+          "responses": ["Yes, IIEST allows scholarships such as NSP, Reliance, Swami Vivekananda Scholarship, and more. You can contact Abhijit Bannerjee (SnT-5th floor) or Dean Academic Ashok Adak Sir (Main-1st floor) for more information."]
+      },
+      {
+          "tag": "tuition_fee_waiver",
+          "patterns": ["Does IIEST provide Tuition-Fee-Waiver opportunities?", "Are there any tuition fee waivers available at IIEST?", "Tell me about the tuition fee waiver options at IIEST"],
+          "responses": ["Yes, IIEST offers Full Tuition-Fee-Waiver and Partial Tuition-Fee-Waiver."]
+      },
+      {
+          "tag": "fee_waiver_eligibility",
+          "patterns": ["Who are Eligible for Full and Partial Tuition Fee Waiver?", "What are the eligibility criteria for tuition fee waivers?", "Tell me about the requirements for tuition fee waivers"],
+          "responses": ["Full Tuition Fee Waiver: Annual Income < 1,00,000\nPartial Tuition Fee Waiver: Annual Income: 1,00,000 to 5,00,000 (link)"]
+      },
+      {
+          "tag": "refund_josaa",
+          "patterns": ["When should I get the Refund of JOSAA-Admission-fees?", "When will I receive the refund for JOSAA admission fees?", "Tell me about the refund process for JOSAA admission fees"],
+          "responses": ["You should receive the refund by the latest 3rd semester. If you haven't received it, you can contact Abhijit Bannerjee (SnT-5th floor) for assistance."]
+      },
+      {
+          "tag": "bank_loan",
+          "patterns": ["Does IIEST allow studying through Bank Loan and how?", "Can I fund my education at IIEST through a bank loan?", "Tell me about the bank loan process for studying at IIEST"],
+          "responses": ["Yes, IIEST allows studying through Bank Loan. You can email the Dean of Students Welfare for a Bonafide Certificate. Complete the rest of the process at your bank and forward the college bank details during semester payment."]
+      },
+      {
+          "tag": "banks",
+          "patterns": ["How many Banks are there at IIEST Shibpur?", "Which banks are available at IIEST Shibpur?", "Tell me about the banks located at IIEST Shibpur"],
+          "responses": ["There are UCO Bank (SnT building), UBI, and SBI (near Oval Ground) at IIEST Shibpur."]
+      },
+      {
+          "tag": "clubs",
+          "patterns": ["What are the Clubs at IIEST Shibpur?", "Tell me about the clubs at IIEST Shibpur", "Which clubs are available at IIEST Shibpur?"],
+          "responses": ["The clubs at IIEST Shibpur include :\nRobodarshan \n Les Thespians \n Catharsis \n Euphony \n LitSoc \n Quizmaniac BEings \n SCAGE \n Society of Games and Sports \n Code IIEST \n DebSoc \n Reflexo Beta \n Entrepreneurship Development Cell(EDC) \n Camerabuff \n Aeromodelling Club."]
+      },
+      {
+          "tag": "special",
+          "patterns": ["What's special about IIEST?", "Tell me about the unique features of IIEST", "What sets IIEST apart from other institutions?"],
+          "responses": ["IIEST has a rich culture of heritage with foundations of historical importance and a green lush campus."]
+      },
+      {
+          "tag": "tree_count",
+          "patterns": ["How many Trees are there at IIEST?", "Tell me about the number of trees at IIEST", "How green is the campus of IIEST?"],
+          "responses": ["There are 2610 trees at IIEST."]
+      },
+      {
+          "tag": "fests",
+          "patterns": ["What are the Fests at IIEST Shibpur?", "Tell me about the festivals celebrated at IIEST Shibpur", "Which fests are organized at IIEST Shibpur?"],
+          "responses": ["The fests at IIEST Shibpur include REBECA, GYANDHARA, OIKOTAA, ANURANAN, TEDX-IIESTSHIBPUR, UDBHAVANI, INITIUM, METALLUM, SPHURAN, SCINTILLATIONS, IMPETUS, VAIDYUTIK, ABHIYANTRIX, SATRANG, and KRITI. (link)"]
+      },
+
+      {
+          "tag":"bot",
+          "patterns":["who are you","what is your name","what should i call you"],
+          "responses":["My name is MyIIEST Assistant🙂"]
+      },
+      {
+          "tag": "thanks",
+          "patterns": ["Thank you", "Thanks a lot", "Appreciate it"],
+          "responses": ["You're welcome!", "No problem!", "Glad I could help!"]
+      },
+      {
+          "tag":"goodbye",
+          "patterns":["goodbye","bye"],
+          "responses":["Goodbye!","See you later!"]
+      },
+      {
+          "tag": "default",
+          "patterns": [],
+          "responses": ["I'm sorry, I didn't understand that. Can you please rephrase?", "Could you please provide more information?"]
+      }
+  ]
+}
