@@ -8,17 +8,17 @@
         {
             "tag":"developers",
             "patterns":["Who developed you?" , "How were you made?" , "by whom were you made?", "who made you?"],
-            "responses":["I was created by a Btech student in the Department of Mechanical Engineering named Utsab Kundu......just kidding........i was made by a team of  who worked on the project of MyIIEST"]
+            "responses":["I was created by a Btech student in the Department of Mechanical Engineering named Utsab Kundu......just kidding........i was made by a team of 7 UG students who worked on the project of MyIIEST"]
         },
         {
             "tag":"depts.",
-            "patterns":["What are the different departments available in UG in IIEST?" ],
+            "patterns":["What are the different departments available in IIEST?" ],
             "responses":["There are "]
         },
         {
             "tag":"help",
             "patterns":["I have some doubts","can you help me?" ],
-            "responses":["Yeah sure ! I am here to assist you :) \n Please specify your doubt"]
+            "responses":["Yeah sure! I am here to assist you :) <br> Please specify your doubt"]
         },
         {
             "tag": "about_iiest",
